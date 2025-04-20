@@ -116,15 +116,15 @@ header .navbar {
     padding-block: 10px;
     
   }
-  .dark-mode header .navbar  .navbar-collapse {
+  /* .dark-mode header .navbar  .navbar-collapse {
     background-color: #292222;
   }
   .light-mode header .navbar  .navbar-collapse {
     background-color: #eee;
-  }
+  } */
   header .navbar .navbar-collapse .navbar-nav {
     padding-inline: 15px;
-    gap: 5px;
+    gap: 31px;
     width: auto;
   }
   .About{
@@ -485,9 +485,9 @@ justify-content: center;
         left: 1%;
         flex-basis: auto;
       }
-      header .navbar   .navbar-collapse .navbar-nav {
+      /* header .navbar   .navbar-collapse .navbar-nav {
         gap: 1rem;
-      }
+      } */
       .total .part1 .app a span{
         width: auto;
       }
@@ -539,9 +539,9 @@ justify-content: center;
         width: 100%;
         justify-content: space-around;
       }
-      header .navbar   .navbar-collapse .navbar-nav {
+      /* header .navbar   .navbar-collapse .navbar-nav {
         gap: 2rem;
-      }
+      } */
       .p1{
         display: none;
       }
@@ -587,7 +587,7 @@ justify-content: center;
       .total .part1 .app a{
         width: 145px;
       }
-      header .navbar  .navbar-collapse .navbar-nav {
+      /* header .navbar  .navbar-collapse .navbar-nav {
         gap: 2rem;
-      }
+      } */
   }
