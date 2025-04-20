@@ -48,6 +48,17 @@ header{
 .light-mode{
   background-color: #fff;
 }
+.fa-bars{
+  font-size: 1.25rems;
+  cursor: pointer;
+}
+.dark-mode .fa-bars{
+  color: #fff;
+
+}
+.light-mode .fa-bars{
+  color: var(--read-me);
+}
 .dark-mode{
   background-color: rgb(2, 2, 2);
 }

@@ -132,14 +132,14 @@ let btn = document.querySelector("#change-mode")
     }
     /* popup To Close And Open */
 
-   let myBtnIcon = document.querySelector(".navbar-toggler i");
+//    let myBtnIcon = document.querySelector(".navbar-toggler i");
    
-   myBtnIcon.addEventListener("click",()=>{
-       myBtnIcon.classList.toggle("open")
-    const isOpen = myBtnIcon.classList.contains("open");
-    if (isOpen) {
-         myBtnIcon.classList.replace("fa-bars", "bi-x");
-       } else {
-         myBtnIcon.classList.replace("bi-x", "fa-bars");
-       }
-   })
+//    myBtnIcon.addEventListener("click",()=>{
+//        myBtnIcon.classList.toggle("open")
+//     const isOpen = myBtnIcon.classList.contains("open");
+//     if (isOpen) {
+//          myBtnIcon.classList.replace("fa-bars", "bi-x");
+//        } else {
+//          myBtnIcon.classList.replace("bi-x", "fa-bars");
+//        }
+//    })
