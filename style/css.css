@@ -299,7 +299,7 @@ justify-content: center;
   .total .part1 .app p{
     font-size: 1.25rem;
     font-family: Bold;
-    
+    width: 100%;
   }
  .light-mode .total .part1 .app a span{
    color: var(--read-me);
@@ -317,10 +317,12 @@ justify-content: center;
     display: flex;
     gap: 9px;
     align-items: center;
+    width: 44%;
   }
   .total .part1 .app a span{
     font-size: 1rem;
     font-family: Medium;
+    width: 71px;
   }
   .total .part1 .app a i{
     font-size: 20px;
@@ -475,6 +477,12 @@ justify-content: center;
       header .navbar   .navbar-collapse .navbar-nav {
         gap: 1rem;
       }
+      .total .part1 .app a span{
+        width: auto;
+      }
+      .total .part1 .app a{
+        width: 71%;
+      }
       .About .Alf h2{
         font-size: 5.25rem;
       }
@@ -556,6 +564,7 @@ justify-content: center;
       footer{
         padding: 100px 60px 24px ;
       }
+     
   }
   @media(min-width:992px){
     header .navbar {
@@ -564,7 +573,9 @@ justify-content: center;
         justify-content: space-between;
       }
    
-      
+      .total .part1 .app a{
+        width: 145px;
+      }
       header .navbar  .navbar-collapse .navbar-nav {
         gap: 2rem;
       }
